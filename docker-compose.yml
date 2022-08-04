@@ -4,10 +4,10 @@ services:
     image: postgres:13
     ports:
       - 5434:5434
-    environment:
+    environment: 
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 123
-      POSTGRES_DB: nest
+      POSTGRES_DB: nest_db
     networks:
       - freecodecamp
 networks:
